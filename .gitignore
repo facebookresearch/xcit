@@ -1,0 +1,9 @@
+*.swp
+**/__pycache__/**
+*.vscode/
+*.pdf
+*.yaml
+events.out.*
+.ipynb_checkpoints/*
+detection/data
+semantic_segmentation/data
