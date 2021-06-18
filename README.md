@@ -383,12 +383,12 @@ python -m torch.distributed.launch --nproc_per_node=[NUM_GPUS] --use_env main.py
 For example, the XCiT-S12/16 model can be trained using the following command
 
 ```
-python -m torch.distributed.launch --nproc_per_node=8 --use_env main.py --model xcit_small_12_p16 --batch-size 128 --drop-path 0.05 --output_dir /experiments/xcit_small_12_p16/ 
+python -m torch.distributed.launch --nproc_per_node=8 --use_env main.py --model xcit_small_12_p16 --batch-size 128 --drop-path 0.05 --output_dir /experiments/xcit_small_12_p16/ --epochs [NUM_EPOCHS]
 ```
 
 For multinode training via SLURM you can alternatively use 
 ```
-python run_with_submitit.py --partition [PARTITION_NAME] --nodes 2 --ngpus 8 --model xcit_small_12_p16 --batch-size 64 --drop-path 0.05 --job_dir /experiments/xcit_small_12_p16/ 
+python run_with_submitit.py --partition [PARTITION_NAME] --nodes 2 --ngpus 8 --model xcit_small_12_p16 --batch-size 64 --drop-path 0.05 --job_dir /experiments/xcit_small_12_p16/ --epochs 400
 ```
 
 More details for the hyper-parameters used to train the different models can be found in Table B.1 in the paper.

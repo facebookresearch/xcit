@@ -34,7 +34,7 @@ import xcit
 def get_args_parser():
     parser = argparse.ArgumentParser('XCiT training and evaluation script', add_help=False)
     parser.add_argument('--batch-size', default=64, type=int)
-    parser.add_argument('--epochs', default=300, type=int)
+    parser.add_argument('--epochs', default=400, type=int)
 
     # Model parameters
     parser.add_argument('--model', default='xcit_s_12', type=str, metavar='MODEL',
