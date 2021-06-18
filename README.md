@@ -1,7 +1,7 @@
 # Cross-Covariance Image Transformer (XCiT)
 
 
-PyTorch implementation and pretrained models for XCiT models. See [XCiT: Cross-Covariance Image Transformer]()
+PyTorch implementation and pretrained models for XCiT models. See [XCiT: Cross-Covariance Image Transformer](https://arxiv.org/pdf/2106.09681.pdf)
 
 
 
@@ -420,13 +420,13 @@ This repository is released under the Apache 2.0 license as found in the [LICENS
 We actively welcome your pull requests! Please see [CONTRIBUTING.md](.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](.github/CODE_OF_CONDUCT.md) for more info.
 
 
-<!-- ## Citation
+## Citation
 If you find this repository useful, please consider citing our work:
 ```
-@article{,
-  title={XCiT: Cross-Covariance Image Transformers},
-  author={},
-  journal={},
-  year={2021}
+@misc{elnouby2021xcit,
+      title={XCiT: Cross-Covariance Image Transformers}, 
+      author={Alaaeldin El-Nouby and Hugo Touvron and Mathilde Caron and Piotr Bojanowski and Matthijs Douze and Armand Joulin and Ivan Laptev and Natalia Neverova and Gabriel Synnaeve and Jakob Verbeek and Hervé Jegou},
+      year={2021},
+      journal={arXiv preprint arXiv:2106.09681},
 }
-``` -->
+```
