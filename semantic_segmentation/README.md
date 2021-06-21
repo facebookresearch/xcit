@@ -182,8 +182,8 @@ tools/dist_test.sh  <CONFIG_PATH> <CHECKPOINT_PATH> <NUM_GPUS> --eval mIoU
 For example, using an XCiT-S12/16 backbone with Semantic-FPN
 
 ```
- tools/dist_test.sh  configs/xcit/sem_fpn/sem_fpn_xcit_small_12_p81_80k_ade20k.py https://dl.fbaipublicfiles.com/xcit/ade/sem_fpn_xcit_small_12_p86.pth  1 --eval mIoU
- ```
+ tools/dist_test.sh  configs/xcit/sem_fpn/sem_fpn_xcit_small_12_p16_80k_ade20k.py https://dl.fbaipublicfiles.com/xcit/ade/sem_fpn_xcit_small_12_p16.pth  1 --eval mIoU
+```
 
 ---
 
