@@ -1,8 +1,9 @@
 # Cross-Covariance Image Transformer (XCiT)
 
 
-PyTorch implementation and pretrained models for XCiT models. See [XCiT: Cross-Covariance Image Transformer](https://arxiv.org/pdf/2106.09681.pdf)
+PyTorch implementation and pretrained models for XCiT models. See **XCiT: Cross-Covariance Image Transformer**
 
+[[`arXiv`](https://arxiv.org/pdf/2106.09681.pdf)] [[`Yannic Kilcher's video`](https://www.youtube.com/watch?v=g08NkNWmZTA)]
 
 
 
