@@ -5,7 +5,7 @@
 Install the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) library
 
 ```
-pip install mmcv-full==1.3.0 mmseg==0.11.0
+pip install mmcv-full==1.3.0 mmsegmentation==0.11.0
 ```
 
 Please follow the datasets guide of [mmseg](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/dataset_prepare.md) to prepare the ADE20k dataset.
