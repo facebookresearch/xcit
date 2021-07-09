@@ -424,10 +424,10 @@ We actively welcome your pull requests! Please see [CONTRIBUTING.md](.github/CON
 ## Citation
 If you find this repository useful, please consider citing our work:
 ```
-@misc{elnouby2021xcit,
-      title={XCiT: Cross-Covariance Image Transformers}, 
-      author={Alaaeldin El-Nouby and Hugo Touvron and Mathilde Caron and Piotr Bojanowski and Matthijs Douze and Armand Joulin and Ivan Laptev and Natalia Neverova and Gabriel Synnaeve and Jakob Verbeek and Hervé Jegou},
-      year={2021},
-      journal={arXiv preprint arXiv:2106.09681},
+@article{el2021xcit,
+  title={XCiT: Cross-Covariance Image Transformers},
+  author={El-Nouby, Alaaeldin and Touvron, Hugo and Caron, Mathilde and Bojanowski, Piotr and Douze, Matthijs and Joulin, Armand and Laptev, Ivan and Neverova, Natalia and Synnaeve, Gabriel and Verbeek, Jakob and others},
+  journal={arXiv preprint arXiv:2106.09681},
+  year={2021}
 }
 ```
